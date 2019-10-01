@@ -1,0 +1,42 @@
+@import '../../../assets/css/Foundationmin/css/foundation.css';
+/* @import '../../../assets/css/Foundationmin/css/foundation.min.css'; */
+
+
+.work-feature-block {
+  padding: 10px 0;
+  border-top: 1px solid #cacaca;
+  border-bottom: 1px solid #cacaca;
+  background: #00010f86;
+  color: white;
+  
+}
+
+.work-feature-block-image {
+  display: inline-block;
+  margin: auto;
+  padding: 10px 0;
+  /* background: #00000075; */
+  color: white;
+}
+
+h2{
+  font-weight: 300;
+  color: white;
+}
+
+*{
+  font-weight: 300;
+}
+
+#whitespace{
+  height: 40px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100vh;
+  z-index: -1;
+}
