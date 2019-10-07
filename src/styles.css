@@ -1,3 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import"./assets/css/Foundationmin/css/foundation.css";
 /* @import"./assets/css/Foundationmin/css/foundation.min.css" */
+
+body{
+    background: url('./assets/images/black-paper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
