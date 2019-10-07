@@ -11,6 +11,7 @@ import { WorksamplepageComponent } from './components/worksamplepage/worksamplep
 import { ContactpageComponent } from './components/contactpage/contactpage.component';
 import { HomescreenComponent } from './components/homescreen/homescreen.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { SocialStickyComponent } from './components/social-sticky/social-sticky.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BlogComponent } from './components/blog/blog.component';
     WorksamplepageComponent,
     ContactpageComponent,
     HomescreenComponent,
-    BlogComponent
+    BlogComponent,
+    SocialStickyComponent
   ],
   imports: [
     BrowserModule,
