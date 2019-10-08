@@ -1,0 +1,117 @@
+@import'../../../assets/css/Foundationmin/css/foundation.css';
+@import'../../../assets/css/Foundationmin/css/foundation.min.css';
+
+.portfolio-resume{
+    background-color: #00000080;
+      padding: 20px;
+      padding-bottom: 60px;
+}
+
+.portfolio-resume-spacing {
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio-resume-wrapper {
+    padding: 2rem 4rem;
+  }
+
+  .portfolio-resume-wrapper-2 {
+    padding: 2rem 4rem;
+    padding-bottom: 0rem;
+  }
+  
+  /* .portfolio-resume-headshot {
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    align-content: center;
+  }
+   */
+  .portfolio-resume-header {
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e6e6e6;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #ffdc18;
+  }
+  
+  .portfolio-resume-contact-info {
+    margin-bottom: 0.75rem;
+  }
+  
+  .portfolio-resume-contact-info a {
+    color: #0a0a0a;
+  }
+  
+  .portfolio-resume-contact-info .fa {
+    font-size: 1.4rem;
+    padding-right: 0.8rem;
+    vertical-align: middle;
+    color: #0a0a0a;
+  }
+  
+  *{
+      color: white;
+      font-weight: 300;
+      
+  }
+
+  /* DOWNLOAD BUTTON CSS */
+
+.button-rounded-hover {
+  border: 0;
+  border-radius: 5000px;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  transition: all 0.35s ease;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  background-color: #ffdc18;
+  color: black;
+}
+
+.button-rounded-hover:before {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: inherit;
+  background-color: #fefefe;
+  transition: all 0.3s;
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.button-rounded-hover:after {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: 5px solid #c0a300;
+  content: '';
+  border-radius: inherit;
+  color: #3d3c36;
+}
+
+.button-rounded-hover:hover,
+.button-rounded-hover:focus {
+  background-color: #ffdc18;
+}
+
+.button-rounded-hover:hover:before,
+.button-rounded-hover:focus:before {
+  -webkit-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 0.25;
+}
+
