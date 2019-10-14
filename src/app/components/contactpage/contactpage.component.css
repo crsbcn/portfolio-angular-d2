@@ -74,8 +74,8 @@
   .contact-us-form input[type=email],
   .contact-us-form textarea {
     margin-bottom: 1rem;
-    border-radius: 4px
-
+    border-radius: 4px;
+    background-color: #ffffffd0;
   }
   
   .contact-us-form-actions {
