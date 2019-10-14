@@ -12,6 +12,7 @@ import { ContactpageComponent } from './components/contactpage/contactpage.compo
 import { HomescreenComponent } from './components/homescreen/homescreen.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { SocialStickyComponent } from './components/social-sticky/social-sticky.component';
+import { PhotosliderComponent } from './components/photoslider/photoslider.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SocialStickyComponent } from './components/social-sticky/social-sticky.
     ContactpageComponent,
     HomescreenComponent,
     BlogComponent,
-    SocialStickyComponent
+    SocialStickyComponent,
+    PhotosliderComponent
   ],
   imports: [
     BrowserModule,
